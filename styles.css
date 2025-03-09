@@ -85,3 +85,13 @@ bottom: 0;
 width: 100%;
 
 } 
+img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+ img {
+    width: 300px;
+    height: auto;
+}
