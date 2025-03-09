@@ -16,11 +16,11 @@ line-height: 1.6;
 
 header {
 
-background-color: #4CAF50;
+background-color: #ff2626;
 
 color: white;
 
-padding: 20px;
+padding: 10px;
 
 text-align: center;
 
@@ -36,7 +36,7 @@ nav a {
 
 color: light pink;
 
-text-decoration: none;
+text-decoration: solid;
 
 margin: 0 10px;
 
@@ -63,7 +63,7 @@ max-width: 100%;
 
 height: auto;
 
-display: block;
+display: block horizontal;
 
 margin: 20px 0;
 
