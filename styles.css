@@ -100,4 +100,10 @@ img {
  img {
     width: 300px;
     height: auto;
+ }
+.gallery {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    flex-wrap: wrap; 
 }
