@@ -166,7 +166,7 @@ button:hover {
         padding: 20px;
     }
 }
-.gallery-container {
+.gallery-grid {
     
     display: flex;
     
@@ -178,7 +178,7 @@ button:hover {
     
 }
 
-.gallery-container {
+.gallery-grid {
     
     display :grid; 
     
@@ -190,7 +190,7 @@ button:hover {
     
     padding: 20px;
 }
-.gallery-container img {
+.gallery-grid img {
     
     width: 100%; /* Makes images stretch to fit their grid space */
     
@@ -206,7 +206,7 @@ button:hover {
     
 }
     
-.gallery-container img:hover {
+.gallery-grid img:hover {
     
     transform: scale(1.05);
 } 
