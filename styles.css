@@ -40,12 +40,14 @@ font-size: 2em
 }
 
 nav {
-
+    
+display: flex
+    
 text align: center;
 
 padding: 10px;
 
-background: rgba(0,0,0,0.6);
+background: rgba(0,0,0,0.8);
 
 }
 
@@ -164,5 +166,33 @@ button:hover {
         padding: 20px;
     }
 }
- 
+.gallery-container {
+    
+    display: flex;
+    
+    justify-content: center; 
+    
+    gap: 20px; 
+    
+    flex-wrap: wrap; 
+    
+}
+
+.gallery-container img {
+    
+    width: 300px; 
+    
+    height: auto;
+    
+    border-radius: 10px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-container img:hover {
+    
+    transform: scale(1.05);
+} 
 
