@@ -182,7 +182,9 @@ button:hover {
     
     display :grid; 
     
-    grid template columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-flow: column; /* Use column layout */
+    
+    grid-auto-columns: minmax(200px, 1fr); /* Define column width */
     
     gap: 15px;
     
