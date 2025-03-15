@@ -1,6 +1,6 @@
 body {
 
-font-family: 'Poppins', Arial, sans-serif;
+font-family: -apple-system, sans-serif;
 
 color: #FFFFFF;
 
@@ -17,7 +17,8 @@ margin: 0;
 padding: 0;
 
 line-height: 1.6;
-
+    
+scroll-behavoir: smooth
 } 
 
 header {
