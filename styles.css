@@ -185,7 +185,7 @@ button:hover {
     
     grid-auto-flow: column; /* Use column layout */
     
-    grid-auto-columns: minmax(200px, 1fr); /* Define column width */
+    grid-auto-columns: minmax(200px, 2fr); /* Define column width */
     
     gap: 15px;
     
@@ -220,10 +220,10 @@ button:hover {
 }
 .service-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Responsive columns */
-    gap: 20px; /* Space between images */
+    grid-template-columns: repeat(2, 3fr); /* Responsive columns */
+    gap: 10px; /* Space between images */
     justify-content: center; /* Center align */
-    padding: 20px;
+    padding: 50px;
 }
 
 .service-container img {
