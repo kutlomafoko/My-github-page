@@ -4,7 +4,7 @@ font-family: -apple-system, sans-serif;
 
 color: #FFFFFF;
 
-background-image: url();
+background-image: url(240_F_429356296_CVQ5LkC6Pl55kUNLqLisVKgTw9vjyif1.jpg);
     
 background-size: cover;
     
@@ -50,7 +50,7 @@ text align: center;
 
 padding: 10px;
 
-background: rgba(0,0,0,0.8);
+background: rgba(0,0,0,0.8)
 
 }
 
@@ -64,13 +64,13 @@ nav a {
     
     font-size: 1.2em;
     
-    transition: color 0.3s ease; }
+    transition: color 0.3s ease }
 
 nav a:hover {
     
     color: #ffd700;
     
-    text-decoration: underline; }
+    text-decoration: underline }
     
 main {    
 padding: 40px;
