@@ -1,6 +1,6 @@
 body {
 
-font-family: -apple-system, sans-serif;
+font-family: poppins, sans-serif;
 
 color: #FFFFFF;
 
@@ -27,7 +27,7 @@ background-color: rgba(0,0,0,0.8);
 
 color: white;
 
-padding: 20px;
+padding: 10px;
 
 text-align: center;
 
@@ -233,7 +233,7 @@ button:hover {
 
 .service-container img {
     width: 100%; /* Ensures the image stretches to fit the column */
-    height: 250px; /* Makes all images the same height */
+    height: 300px; /* Makes all images the same height */
     object-fit: cover; /* Ensures images do not stretch or distort */
     border-radius: 10px; /* Optional: rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional: shadow effect */
