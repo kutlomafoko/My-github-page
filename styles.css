@@ -243,9 +243,16 @@ button:hover {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: inline
+    display: inline;
 }
 
-    
+.nav_logo img {
+    max-width: 150px;
+}
+.nav_menu_btn { 
+    font-size: 1.5rem;
+    color: var (--white); 
+    cursor: pointer;
+}
     
 
