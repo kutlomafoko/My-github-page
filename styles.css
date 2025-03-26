@@ -247,12 +247,20 @@ button:hover {
 }
 
 .nav_logo img {
-    max-width: 75px;
+    max-width: 5px;
 }
 .nav_menu_btn { 
     font-size: 1.0rem;
     color: var (--white); 
     cursor: pointer;
 }
-    
+form {
+  max-width: 400px; /* Adjust as needed */
+  margin: 20px auto; /* Center the form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
 
