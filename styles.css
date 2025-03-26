@@ -246,8 +246,8 @@ button:hover {
     display: inline;
 }
 
-.nav_logo img {
-    max-width: 5px;
+.logo {width: 100px; /* Set your desired width */
+    height: 50px; /* Set your desired height */
 }
 .nav_menu_btn { 
     font-size: 1.0rem;
