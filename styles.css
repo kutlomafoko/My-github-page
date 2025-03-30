@@ -1,24 +1,13 @@
 body {
 
 font-family: "Poppins", sans-serif;
-
-color: #FFFFFF;
-
-background-image: url("ai-generated-9321519_640.jpg");
-    
-background-size: cover;
-    
-background-repeat: no repeat;
-    
-background-position: center; 
-    
+background-color: #1e1e1e;
+color: white;
 margin: 0;
-
 padding: 0;
-
-line-height: 1.6;
-    
-scroll-behavoir: smooth
+boarder: none;
+text-transition: capitalize;    
+transition: 0.3s;
 } 
 
 header {
