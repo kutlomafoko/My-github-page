@@ -252,15 +252,18 @@ button:hover {
 .nav_menu_btn { 
     font-size: 1.0rem;
     color: var (--white); 
-    cursor: pointer;
 }
-form {
-  max-width: 400px; /* Adjust as needed */
-  margin: 20px auto; /* Center the form */
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #f9f9f9;
-}
-
+ .social-icons {
+            display: flex;
+            gap: 15px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            font-size: 30px;
+            color: #000;
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            color: #007BFF;
+        }
 
