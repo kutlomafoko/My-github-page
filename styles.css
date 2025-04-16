@@ -206,53 +206,6 @@ button:hover {
 .gallery-grid img:hover {
     
     transform: scale(1.05);
-} 
-
-.contact-image {
-    width: 100px;
-    height: 100px;
-}
-.service-container {
-    display: grid;
-    grid-template-columns: repeat(2, 3fr); /* Responsive columns */
-    gap: 10px; /* Space between images */
-    justify-content: center; /* Center align */
-    padding: 50px;
 }
 
-.service-container img {
-    width: 100%; /* Ensures the image stretches to fit the column */
-    height: 300px; /* Makes all images the same height */
-    object-fit: cover; /* Ensures images do not stretch or distort */
-    border-radius: 10px; /* Optional: rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional: shadow effect */
-    transition: transform 0.3s ease-in-out;
-}
-.gallery ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: inline;
-}
-
-.nav_logo {width: 100px; /* Set your desired width */
-    height: 50px; /* Set your desired height */
-}
-.nav_menu_btn { 
-    font-size: 1.0rem;
-    color: var (--white); 
-}
- .social-icons {
-            display: flex;
-            gap: 15px;
-        }
-        .social-icons a {
-            text-decoration: none;
-            font-size: 30px;
-            color: #000;
-            transition: 0.3s;
-        }
-        .social-icons a:hover {
-            color: #007BFF;
-        }
 
