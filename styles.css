@@ -133,7 +133,13 @@ font-size: 0.9em;
     font-weight: bold;
  }
 
-
+.contact-info img {
+    width: 24px;
+    height :24px;
+    margin-right :8px;
+}
+    
+    
 
 
 
