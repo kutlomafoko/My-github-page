@@ -114,21 +114,22 @@ font-size: 0.9em;
     
 }
     
-.gallery {
+.gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 15px;
     padding: 20px;
 }
-.gallery img {
+.gallery-grid img {
     width: 100%;
+    object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
     height: 200px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* optional: soft shadow */
     
 }
-.gallery img:hover {
+.gallery-grid img:hover {
     transform: scale(1.03);
 
  .logo {
