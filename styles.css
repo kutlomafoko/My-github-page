@@ -169,7 +169,13 @@ font-size: 0.9em;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
   pointer-events: none;
 }    
-
+.video-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* This makes it responsive on small screens */
+  margin-top: 20px;
+}
 
 
 
