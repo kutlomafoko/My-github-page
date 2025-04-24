@@ -255,11 +255,12 @@ font-size: 0.9em;
 }
 
 .styled-form {
-  background-color: #fff;
+  background-color: #f0f0f0;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   font-family: 'Segoe UI', sans-serif;
+  text-align: center; 
 }
 
 .styled-form h2 {
