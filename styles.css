@@ -321,7 +321,7 @@ font-size: 0.9em;
   background-color: #45a049;
 }
  .home-page {
-  background-image: url(''); /* Replace with your image URL */
+  background-image: url('wall.jpg'); /* Replace with your image URL */
   background-size: cover; /* Ensures the image covers the full page */
   background-position: center; /* Centers the image */
   background-attachment: fixed; /* Optional: Keeps the background fixed when scrolling */
