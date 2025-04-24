@@ -168,13 +168,20 @@ font-size: 0.9em;
   color: white;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
   pointer-events: none;
-.video-title {
-  margin-top: 8px;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #333;
 }
-
+.video-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;           /* space between videos */
+  flex-wrap: wrap;     /* wrap if screen is small */
+  margin-top: 20px;
+}
+    
+.video-item {
+  text-align: center;
+  max-width: 300px;    /* or whatever width you prefer */
+  flex: 1 1 300px;     /* makes them responsive */
+}
     
 
 
