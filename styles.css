@@ -225,6 +225,8 @@ font-size: 0.9em;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
   display: flex;
+  height:220%;
+  width:100%;
 }    
 
 .service-card:hover {
