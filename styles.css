@@ -11,8 +11,8 @@ transition: 0.3s;
 } 
 
 header {
-
-background-color: rgba(0,0,0,0.8);
+width: 100%;
+background-color: #lelele;
 
 color: white;
 
@@ -23,7 +23,7 @@ text-align: center;
 }
 
 header h1 {
-
+width: 100%;
 margin: 0;
     
 font-size: 2em
