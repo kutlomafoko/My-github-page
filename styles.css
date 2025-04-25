@@ -324,9 +324,15 @@ font-size: 0.9em;
   height: 200px; /* Adjust the height of the image */
   object-fit: cover; /* Ensures the image maintains its aspect ratio while covering the space */
 }
-.service-price {
-  font-weight: bold;
-  color: #28a745;
-  margin-bottom: 10px;
+.price-box {
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 12px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
     
