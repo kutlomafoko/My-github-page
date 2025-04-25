@@ -325,7 +325,7 @@ font-size: 0.9em;
   object-fit: cover; /* Ensures the image maintains its aspect ratio while covering the space */
 }
 .price-box {
-  background-color: #333;
+  background-color: #FFD700;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
