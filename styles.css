@@ -325,7 +325,11 @@ body.feedback-page {
   background-color: #0056b3;
 }    
 
-
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
 
 .card-img-top {
   height: 200px; /* Adjust the height of the image */
