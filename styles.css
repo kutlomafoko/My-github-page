@@ -246,22 +246,86 @@ font-size: 0.9em;
   justify-content: center;
   height: 100%;
 }
-    
-
-.form-wrapper {
-  max-width: 500px;
-  margin: 40px auto;
-  padding: 20px;
-}
-.feedback-page {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+body.feedback-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1e1e1e;
+  height: 100vh;
+  margin: 0;
 }
+
+.form-wrapper {
+  background-color: #1e1e1e;
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.styled-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.styled-form h2 {
+  margin-bottom: 1rem;
+  color: #333333;
+  text-align: center;
+}
+
+.styled-form label {
+  font-weight: 600;
+  color: #333;
+}
+
+.styled-form input[type="text"] {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.gender-options {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.gender-options label {
+  font-weight: normal;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.styled-form input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.styled-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}    
+
+
 
 .card-img-top {
   height: 200px; /* Adjust the height of the image */
