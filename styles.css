@@ -248,7 +248,7 @@ font-size: 0.9em;
 }
 body.feedback-page {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  background: linear-gradient(to right, #1e1e1e, #c3cfe2);
   display: flex;
   justify-content: center;
   align-items: center;
