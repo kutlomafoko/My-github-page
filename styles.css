@@ -248,19 +248,17 @@ font-size: 0.9em;
 }
 body.feedback-page {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #1e1e1e, #c3cfe2);
+  background: #6488EA;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  Min-height: 100vh;
   margin: 0;
 }
 
 .form-wrapper {
-  background-color: #1e1e1e;
   padding: 2rem 2.5rem;
   border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 500px;
   display: flex;
