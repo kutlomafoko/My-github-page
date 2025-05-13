@@ -221,7 +221,7 @@ font-size: 0.9em;
   padding: 1rem;
 }
 .service-card {
-  background-color: #1e1e1e;
+  background-color: #000080;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
