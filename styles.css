@@ -131,7 +131,7 @@ font-size: 0.9em;
 }
 .gallery-grid img:hover {
     transform: scale(1.03);
-    ]
+}
 .gallery-item {
   text-align: center;
   position: relative;
