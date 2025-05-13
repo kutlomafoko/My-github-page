@@ -327,6 +327,8 @@ body.feedback-page {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+    
+    
 }
 
 .card-img-top {
