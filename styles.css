@@ -254,7 +254,10 @@ body.feedback-page {
   Min-height: 100vh;
   margin: 0;
 }
-
+.form-wrapper {
+  padding: 2rem 2.5rem;
+  margin-bottom: 80px; /* 👈 Add this to push content above the footer */
+}
 .form-page-wrapper {
  display: flex;
   justify-content: center;
