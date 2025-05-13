@@ -249,21 +249,18 @@ font-size: 0.9em;
 body.feedback-page {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #6488EA;
-  display: flex;
   justify-content: center;
   align-items: center;
   Min-height: 100vh;
   margin: 0;
 }
 
-.form-wrapper {
-  padding: 2rem 2.5rem;
-  border-radius: 16px;
-  width: 100%;
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
+.form-page-wrapper {
+ display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px); /* adjust for header height */
+  padding: 20px;
 }
 
 .styled-form fieldset {
