@@ -326,11 +326,16 @@ body.feedback-page {
 .form-group {
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
-    
-    
+  gap: 0.3rem;    
 }
-
+.styled-form textarea {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: vertical;
+  min-height: 100px;
+}
 .card-img-top {
   height: 200px; /* Adjust the height of the image */
   object-fit: cover; /* Ensures the image maintains its aspect ratio while covering the space */
