@@ -134,6 +134,34 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
+<div id="cookiePopup" class="card text-white bg-dark position-fixed bottom-0 end-0 m-3 shadow" style="display: none; width: 300px; z-index: 1050;">
+  <div class="card-body">
+    <h5 class="card-title">Cookies Consent</h5>
+    <p class="card-text">We use cookies to improve your experience. Do you accept?</p>
+    <div class="d-flex justify-content-between">
+      <button class="btn btn-success btn-sm" onclick="acceptCookies()">Accept</button>
+      <button class="btn btn-danger btn-sm" onclick="rejectCookies()">Reject</button>
+    </div>
+  </div>
+</div>
+<script>
+  // Show popup only if not accepted/rejected
+  window.onload = function () {
+    if (!localStorage.getItem("cookiesAccepted")) {
+      document.getElementById("cookiePopup").style.display = "block";
+    }
+  };
+
+  function acceptCookies() {
+    localStorage.setItem("cookiesAccepted", "true");
+    document.getElementById("cookiePopup").style.display = "none";
+  }
+
+  function rejectCookies() {
+    localStorage.setItem("cookiesAccepted", "false");
+    document.getElementById("cookiePopup").style.display = "none";
+  }
+</script>  
  
 </body>
 
