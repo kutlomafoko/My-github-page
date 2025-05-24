@@ -351,4 +351,54 @@ body.feedback-page {
   margin: 12px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
+/* Make body take full height and center content */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2; /* Optional background */
+}
+
+/* Container styles */
+.container {
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.container h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Paragraph */
+.container p {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.back-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #388e3c;
+}
+
+
     
