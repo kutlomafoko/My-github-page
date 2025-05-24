@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Join Fit Fitness</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="register-page">
+
+  <div class="register-container">
+    <h1>Join Fit Fitness</h1>
+    <p>Transform your body. Transform your life.</p>
+    
+    <form class="register-form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Create Password" required>
+      <button type="submit" class="submit-btn">Get Started</button>
+    </form>
+
+    <button class="back-btn" onclick="goBack()">Go Back</button>
+  </div>
+
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>
