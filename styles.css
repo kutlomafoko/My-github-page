@@ -364,7 +364,7 @@ body.feedback-page {
 .thankyou-page .container {
   text-align: center;
   padding: 40px;
-  background-color: white;
+  background-color: 1e1e1e;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
