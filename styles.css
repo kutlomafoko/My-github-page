@@ -361,7 +361,7 @@ body.feedback-page {
 }
 
 /* Container styles */
-.container {
+.thankyou-page .container {
   text-align: center;
   padding: 40px;
   background-color: white;
@@ -370,21 +370,21 @@ body.feedback-page {
 }
 
 /* Heading */
-.container h1 {
+.thankyou-page .container h1 {
   font-size: 48px;
   margin-bottom: 20px;
   color: #333;
 }
 
 /* Paragraph */
-.container p {
+.thankyou-page .container p {
   font-size: 20px;
   color: #666;
   margin-bottom: 30px;
 }
 
 /* Button */
-.back-btn {
+.thankyou-page .back-btn {
   padding: 12px 24px;
   font-size: 16px;
   background-color: #4CAF50;
@@ -394,7 +394,7 @@ body.feedback-page {
   cursor: pointer;
 }
 
-.back-btn:hover {
+.thankyou-page .back-btn:hover {
   background-color: #388e3c;
 }
 
