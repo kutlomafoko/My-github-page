@@ -351,15 +351,13 @@ body.feedback-page {
   margin: 12px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
-/* Make body take full height and center content */
-body, html {
-  height: 100%;
+.thankyou-page {
+  height: 100vh;
   margin: 0;
-  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f2f2f2; /* Optional background */
+  background-color: #f2f2f2;
 }
 
 /* Container styles */
